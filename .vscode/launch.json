@@ -1,0 +1,32 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "tutoriales - Chrome (Debug)",
+            "cwd": "tutoriales",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "chrome", 
+            "program": "lib/navegacion_tabs_superiores.dart"
+        },
+        {
+            "name": "tutoriales - Chrome (Profile Mode)",
+            "cwd": "tutoriales",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "deviceId": "chrome",
+            "program": "lib/navegacion_tabs_superiores.dart"
+        },
+        {
+            "name": "tutoriales - Chrome (Release Mode)",
+            "cwd": "tutoriales",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "deviceId": "chrome",
+            "program": "lib/navegacion_tabs_superiores.dart"
+        }
+    ]
+}
